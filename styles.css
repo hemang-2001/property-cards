@@ -123,14 +123,16 @@ a {
 /* PRODUCT CARD IS HERE */
 
 .popup-wrapper {
-  display: block;
-  position:absolute; top:35px; left:1150px; right:1150 ; width:322px;   /* don't change it otherwise location of popup will also going to be change */
+  /* display: block; */
+  position:absolute; top:25%; right:20rem;
+  width:min-content;   /* don't change it otherwise location of popup will also going to be change */
   padding:10px; margin:3px; z-index:100;
   box-shadow: 0 0 20px 2px  #E7B542;
   background: white;
-  z-index: 9999;
+  z-index: 2;
   padding: 10px;
   border-radius: 12px;
+  text-overflow:unset;
 }
 
 
