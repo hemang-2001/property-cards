@@ -250,7 +250,7 @@ a {
 
 /* Remove extra left and right margins, due to padding */
 .row {margin: 0 -0.125rem;
-  padding: 0 0.25rem 0rem 0rem;
+  /* padding: 0 0.25rem 0rem 0rem; */
   width: fit-content;
 }
 
