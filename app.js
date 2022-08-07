@@ -1,23 +1,14 @@
+
 // filter popup script START
 var handleModify = (e) => {
     var e = e || window.event;
     
     var popup = document.getElementsByClassName('popup-wrapper')[0];
-    popup.style.display = popup.style.display == "none" ? 'block': "none";
-    popup.style.top = (e.y -e.offsetY- 17)+ 'px';
+    popup.style.display = popup.style.display == "none" ? "block": "none";
+    popup.style.top = (e.y -e.offsetY- 5)+ 'px';
     popup.style.left = (e.x -e.offsetX- 360) +'px';
   }
   
-  var handlePopupClick = () => {
-    var popup = document.getElementsByClassName('popup-wrapper')[0];
-    popup.style.display = "none";
-  }
-  
-//   ENDSSS
-
-// Get the container element
-var btnContainer = document.getElementById("myDIV");
-
 // Get all buttons with class="btn" inside the container
 var btns = btnContainer.getElementsByClassName("navbar-menuItem");
 
