@@ -35,6 +35,28 @@ h1{
   font-size: x-large; 
   color:#AAAAAA; 
   font-weight:bold;
+  font-family: 'Ivy Mode';
+    src: local('Ivy Mode Bold Italic'), local('Ivy-Mode-Bold-Italic'),
+      url('/IvyMode-BoldItalic.woff2') format('woff2'),
+      url('/IvyMode-BoldItalic.woff') format('woff'),
+      url('/IvyMode-BoldItalic.ttf') format('truetype');
+}
+
+span {
+  font-family: 'Ivy Mode';
+  src: local('Ivy Mode Bold Italic'), local('Ivy-Mode-Bold-Italic'),
+    url('/IvyMode-BoldItalic.woff2') format('woff2'),
+    url('/IvyMode-BoldItalic.woff') format('woff'),
+    url('/IvyMode-BoldItalic.ttf') format('truetype');
+}
+
+.heading-color {
+  color:#E7B542;
+  font-family: 'Ivy Mode';
+  src: local('Ivy Mode Bold Italic'), local('Ivy-Mode-Bold-Italic'),
+    url('/IvyMode-BoldItalic.woff2') format('woff2'),
+    url('/IvyMode-BoldItalic.woff') format('woff'),
+    url('/IvyMode-BoldItalic.ttf') format('truetype');
 }
 
 .popup h1{
@@ -59,6 +81,7 @@ html {
   display: flex;
   background-color: black ;
   justify-content: space-around;
+  align-items: center;
   /* padding: 20px; */
   box-sizing: border-box;
   width: fit-content;
@@ -115,6 +138,11 @@ a {
     font-size: var(--font-md);
     font-weight: bolder;
     text-shadow: 0 0 1px #fff;
+    font-family: 'Ivy Mode';
+    src: local('Ivy Mode Bold Italic'), local('Ivy-Mode-Bold-Italic'),
+      url('/IvyMode-BoldItalic.woff2') format('woff2'),
+      url('/IvyMode-BoldItalic.woff') format('woff'),
+      url('/IvyMode-BoldItalic.ttf') format('truetype');
 }
 
 .navbar-menuItem:first-child {
@@ -131,6 +159,11 @@ a {
 /* PRODUCT CARD IS HERE */
 
 .popup-wrapper {
+  font-family: 'Ivy Mode';
+    src: local('Ivy Mode Bold Italic'), local('Ivy-Mode-Bold-Italic'),
+      url('/IvyMode-BoldItalic.woff2') format('woff2'),
+      url('/IvyMode-BoldItalic.woff') format('woff'),
+      url('/IvyMode-BoldItalic.ttf') format('truetype');
   display: none;
   /* visibility: hidden; */
   position:absolute; top:25%; right:10%;
@@ -183,6 +216,7 @@ a {
   font-size: 1.8rem;
   font-weight: bold;
   text-align: top;
+  font-family: ;
   transform: translate(3rem, 0rem);
   justify-content: space-between;
   color: #E7B542;
